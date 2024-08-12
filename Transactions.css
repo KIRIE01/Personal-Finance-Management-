@@ -1,0 +1,75 @@
+/* src/components/Transactions.css */
+.transactions {
+    padding: 20px;
+  }
+  
+  .transaction-group {
+    margin-bottom: 20px;
+  }
+  
+  .transaction-group h3 {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* src/components/TransactionItem.css */
+  .transaction-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .transaction-item:last-child {
+    border-bottom: none;
+  }
+  
+  .transaction-date,
+  .transaction-details,
+  .transaction-amount {
+    flex: 1;
+  }
+  
+  .transaction-date {
+    font-weight: bold;
+  }
+  
+  .transaction-type.expense {
+    color: #e57373;
+  }
+  
+  .transaction-type.income {
+    color: #4caf50;
+  }
+  
+  .transaction-details {
+    text-align: left;
+  }
+  
+  .transaction-amount {
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  /* src/components/FilterAndAdd.css */
+  .filter-and-add {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .filter-button,
+  .add-button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .filter-button {
+    background-color: #9e9e9e;
+  }
+  
